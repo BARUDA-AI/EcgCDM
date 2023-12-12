@@ -5,8 +5,8 @@ import pandas as pd
 import glob
 from xml.etree.ElementTree import Element, SubElement, tostring
 import xml.etree.ElementTree as ET
-from preprocess_snuh_ecg import find_diagnosis_statement, main
-import preprocess_snuh_ecg
+from preprocess.preprocess_snuh_ecg import find_diagnosis_statement, main
+import preprocess.preprocess_snuh_ecg as preprocess_snuh_ecg
 
 class TestConfig:
     vender = 'GE'
